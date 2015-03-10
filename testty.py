@@ -1,0 +1,152 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'testty.ui'
+#
+# Created: Tue Jan 27 17:07:32 2015
+#      by: PyQt4 UI code generator 4.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName(_fromUtf8("MainWindow"))
+        MainWindow.setWindowModality(QtCore.Qt.ApplicationModal)
+        MainWindow.setEnabled(True)
+        MainWindow.resize(800, 597)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
+        MainWindow.setSizePolicy(sizePolicy)
+        MainWindow.setWindowOpacity(2.0)
+        MainWindow.setLayoutDirection(QtCore.Qt.LeftToRight)
+        MainWindow.setAutoFillBackground(True)
+        MainWindow.setToolButtonStyle(QtCore.Qt.ToolButtonIconOnly)
+        MainWindow.setAnimated(True)
+        self.centralwidget = QtGui.QWidget(MainWindow)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.centralwidget.sizePolicy().hasHeightForWidth())
+        self.centralwidget.setSizePolicy(sizePolicy)
+        self.centralwidget.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
+        self.gridLayout = QtGui.QGridLayout(self.centralwidget)
+        self.gridLayout.setObjectName(_fromUtf8("gridLayout"))
+        self.textEdit = QtGui.QTextEdit(self.centralwidget)
+        self.textEdit.setObjectName(_fromUtf8("textEdit"))
+        self.gridLayout.addWidget(self.textEdit, 0, 1, 1, 1)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtGui.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 23))
+        self.menubar.setObjectName(_fromUtf8("menubar"))
+        self.menuSdsdsd = QtGui.QMenu(self.menubar)
+        self.menuSdsdsd.setObjectName(_fromUtf8("menuSdsdsd"))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtGui.QStatusBar(MainWindow)
+        self.statusbar.setObjectName(_fromUtf8("statusbar"))
+        MainWindow.setStatusBar(self.statusbar)
+        self.dockWidget_3 = QtGui.QDockWidget(MainWindow)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.dockWidget_3.sizePolicy().hasHeightForWidth())
+        self.dockWidget_3.setSizePolicy(sizePolicy)
+        self.dockWidget_3.setObjectName(_fromUtf8("dockWidget_3"))
+        self.dockWidgetContents_3 = QtGui.QWidget()
+        self.dockWidgetContents_3.setObjectName(_fromUtf8("dockWidgetContents_3"))
+        self.gridLayout_3 = QtGui.QGridLayout(self.dockWidgetContents_3)
+        self.gridLayout_3.setObjectName(_fromUtf8("gridLayout_3"))
+        self.textEdit_3 = QtGui.QTextEdit(self.dockWidgetContents_3)
+        self.textEdit_3.setObjectName(_fromUtf8("textEdit_3"))
+        self.gridLayout_3.addWidget(self.textEdit_3, 0, 0, 1, 1)
+        self.dockWidget_3.setWidget(self.dockWidgetContents_3)
+        MainWindow.addDockWidget(QtCore.Qt.DockWidgetArea(1), self.dockWidget_3)
+        self.dockWidget = QtGui.QDockWidget(MainWindow)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.dockWidget.sizePolicy().hasHeightForWidth())
+        self.dockWidget.setSizePolicy(sizePolicy)
+        self.dockWidget.setFloating(False)
+        self.dockWidget.setObjectName(_fromUtf8("dockWidget"))
+        self.dockWidgetContents = QtGui.QWidget()
+        self.dockWidgetContents.setObjectName(_fromUtf8("dockWidgetContents"))
+        self.gridLayout_2 = QtGui.QGridLayout(self.dockWidgetContents)
+        self.gridLayout_2.setObjectName(_fromUtf8("gridLayout_2"))
+        self.textEdit_2 = QtGui.QTextEdit(self.dockWidgetContents)
+        self.textEdit_2.setObjectName(_fromUtf8("textEdit_2"))
+        self.gridLayout_2.addWidget(self.textEdit_2, 0, 0, 1, 1)
+        self.dockWidget.setWidget(self.dockWidgetContents)
+        MainWindow.addDockWidget(QtCore.Qt.DockWidgetArea(1), self.dockWidget)
+        self.dockWidget_4 = QtGui.QDockWidget(MainWindow)
+        self.dockWidget_4.setObjectName(_fromUtf8("dockWidget_4"))
+        self.dockWidgetContents_4 = QtGui.QWidget()
+        self.dockWidgetContents_4.setObjectName(_fromUtf8("dockWidgetContents_4"))
+        self.dockWidget_4.setWidget(self.dockWidgetContents_4)
+        MainWindow.addDockWidget(QtCore.Qt.DockWidgetArea(1), self.dockWidget_4)
+        self.dockWidget_2 = QtGui.QDockWidget(MainWindow)
+        self.dockWidget_2.setObjectName(_fromUtf8("dockWidget_2"))
+        self.dockWidgetContents_2 = QtGui.QWidget()
+        self.dockWidgetContents_2.setObjectName(_fromUtf8("dockWidgetContents_2"))
+        self.dockWidget_2.setWidget(self.dockWidgetContents_2)
+        MainWindow.addDockWidget(QtCore.Qt.DockWidgetArea(1), self.dockWidget_2)
+        self.action = QtGui.QAction(MainWindow)
+        self.action.setObjectName(_fromUtf8("action"))
+        self.action_2 = QtGui.QAction(MainWindow)
+        self.action_2.setObjectName(_fromUtf8("action_2"))
+        self.action_3 = QtGui.QAction(MainWindow)
+        self.action_3.setObjectName(_fromUtf8("action_3"))
+        self.action_4 = QtGui.QAction(MainWindow)
+        self.action_4.setObjectName(_fromUtf8("action_4"))
+        self.action_5 = QtGui.QAction(MainWindow)
+        self.action_5.setObjectName(_fromUtf8("action_5"))
+        self.action_6 = QtGui.QAction(MainWindow)
+        self.action_6.setObjectName(_fromUtf8("action_6"))
+        self.action_7 = QtGui.QAction(MainWindow)
+        self.action_7.setObjectName(_fromUtf8("action_7"))
+        self.action_8 = QtGui.QAction(MainWindow)
+        self.action_8.setObjectName(_fromUtf8("action_8"))
+        self.menuSdsdsd.addAction(self.action)
+        self.menuSdsdsd.addAction(self.action_2)
+        self.menuSdsdsd.addAction(self.action_3)
+        self.menuSdsdsd.addAction(self.action_4)
+        self.menuSdsdsd.addAction(self.action_5)
+        self.menuSdsdsd.addAction(self.action_6)
+        self.menuSdsdsd.addAction(self.action_7)
+        self.menuSdsdsd.addAction(self.action_8)
+        self.menubar.addAction(self.menuSdsdsd.menuAction())
+
+        self.retranslateUi(MainWindow)
+        QtCore.QObject.connect(self.textEdit_3, QtCore.SIGNAL(_fromUtf8("textChanged()")), MainWindow.slot1)
+        QtCore.QObject.connect(MainWindow, QtCore.SIGNAL(_fromUtf8("signal1()")), self.textEdit_3.paste)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
+        self.menuSdsdsd.setTitle(_translate("MainWindow", "sdsdsd", None))
+        self.action.setText(_translate("MainWindow", "\'", None))
+        self.action_2.setText(_translate("MainWindow", "\'", None))
+        self.action_3.setText(_translate("MainWindow", "\'", None))
+        self.action_4.setText(_translate("MainWindow", "\'", None))
+        self.action_5.setText(_translate("MainWindow", ";\'", None))
+        self.action_6.setText(_translate("MainWindow", ";\'", None))
+        self.action_7.setText(_translate("MainWindow", ";\'", None))
+        self.action_8.setText(_translate("MainWindow", "\'", None))
+
