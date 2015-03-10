@@ -1,0 +1,118 @@
+file /home/bright/nanopb-0.3.1-linux-x86/tests/SConstruct,line 49:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for C header file stdbool.h... 
+scons: Configure: ".sconf_temp/conftest_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_0.c <-
+  |  |
+  |  |#include "stdbool.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0.o -c -I/home/bright/nanopb-0.3.1-linux-x86 .sconf_temp/conftest_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file stdint.h... 
+scons: Configure: ".sconf_temp/conftest_1.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1.c <-
+  |  |
+  |  |#include "stdint.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1.o -c -I/home/bright/nanopb-0.3.1-linux-x86 .sconf_temp/conftest_1.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file stddef.h... 
+scons: Configure: ".sconf_temp/conftest_2.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_2.c <-
+  |  |
+  |  |#include "stddef.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_2.o -c -I/home/bright/nanopb-0.3.1-linux-x86 .sconf_temp/conftest_2.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file string.h... 
+scons: Configure: ".sconf_temp/conftest_3.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_3.c <-
+  |  |
+  |  |#include "string.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_3.o -c -I/home/bright/nanopb-0.3.1-linux-x86 .sconf_temp/conftest_3.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file stdlib.h... 
+scons: Configure: ".sconf_temp/conftest_4.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_4.c <-
+  |  |
+  |  |#include "stdlib.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_4.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_4.o -c -I/home/bright/nanopb-0.3.1-linux-x86 .sconf_temp/conftest_4.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Building ".sconf_temp/conftest_5" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |pkg-config protobuf --variable=includedir > .sconf_temp/conftest_5
+  |
+scons: Configure: Checking for C library mudflap... 
+scons: Configure: ".sconf_temp/conftest_6.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_6.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_6.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_6.o -c -I/home/bright/nanopb-0.3.1-linux-x86 .sconf_temp/conftest_6.c
+  |
+scons: Configure: Building ".sconf_temp/conftest_6" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_6 .sconf_temp/conftest_6.o -lmudflap
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking support for CCFLAGS="-Wcast-qual -Wlogical-op -Wconversion -fstrict-aliasing -Wstrict-aliasing=1 -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wstack-protector "... 
+scons: Configure: ".sconf_temp/conftest_7.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_7.c <-
+  |  |int main() {return 0;}
+  |
+scons: Configure: ".sconf_temp/conftest_7.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_7.o -c -Wcast-qual -Wlogical-op -Wconversion -fstrict-aliasing -Wstrict-aliasing=1 -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wstack-protector -I/home/bright/nanopb-0.3.1-linux-x86 .sconf_temp/conftest_7.c
+  |
+scons: Configure: (cached) yes
+
+
